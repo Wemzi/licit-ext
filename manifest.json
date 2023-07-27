@@ -1,0 +1,13 @@
+{
+    "manifest_version":1,
+    "name": "LicitInfo PowerUP!",
+    "version":"0.1",
+    "description":"Extra functionalities for the site licit.info",
+    "content_scripts": [
+    {
+        "js": ["scripts/content.js"],
+        "matches":["https://licit.info/ingatlan-arveres*",
+                    "https://licit.info/ingatlanok*"]
+    }
+]
+}
